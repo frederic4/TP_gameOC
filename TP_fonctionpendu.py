@@ -23,7 +23,6 @@ def recup_lettre():
 def choisir_mot():
     #Cette fonction renvoie le mot choisi dans la liste des mots liste_mots.
 
-    # On utilise la fonction choice du module random (voir l'aide)."""
     
     return choice(liste_mots)
 
@@ -32,7 +31,7 @@ def recup_mot_masque(mot_complet, lettres_trouvees):
     #du mot d'origine (type str)
     # des lettres déjà trouvées (type list)
 
-    #On renvoie le mot d'origine avec des * remplaçant les lettres que l'on n'a pas encore trouvées
+    #On renvoie le mot d'origine avec des * remplaçant les lettres non encore trouvées
     
     mot_masque = ""
     for lettre in mot_complet:

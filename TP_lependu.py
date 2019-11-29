@@ -30,7 +30,5 @@ if mot_a_trouver==mot_trouve:
     print("Félicitations ! Vous avez trouvé le mot {0}.".format(mot_a_trouver))
 else:
     print("PENDU !!! Vous avez perdu.")
-continuer_partie = input("Souhaitez-vous continuer la partie (y/n) ? ")
-if continuer_partie=='y':
     
     
