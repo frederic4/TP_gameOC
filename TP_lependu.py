@@ -1,10 +1,10 @@
-# jeu de pendu qui prend un mot au hasard dans une liste (fichier le_pendu_liste)
+# jeu de pendu qui prend un mot au hasard dans une liste (fichier TP_listependu)
 # Créer un fichier avec la liste des mots
 # créer un fichier avec la fonction qui récupère le mot et la fonction.
 
 
 from random import*
-from le_pendu_liste import *
+from TP_listependu import *
 from les_fonctions_pendu import *
 
 
@@ -32,4 +32,5 @@ else:
     print("PENDU !!! Vous avez perdu.")
 continuer_partie = input("Souhaitez-vous continuer la partie (y/n) ? ")
 if continuer_partie=='y':
+    
     
